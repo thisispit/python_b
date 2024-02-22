@@ -1,0 +1,12 @@
+fname="Pitamber"
+mname="Kumar"
+lname="Singh"
+age=20
+add="Banka,Bihar"
+Roll="0231CSDS105"
+print(f"""My First name is={fname} 
+My middle name is={mname} 
+My last name={lname}
+My age={age}
+My address={add}
+My roll={Roll}""")

@@ -1,0 +1,5 @@
+
+set1={}     -setData
+set2=[]     -set
+set3=()     -tuple
+set4={":"}  -dict

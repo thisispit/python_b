@@ -1,0 +1,50 @@
+""" 
+
+Q1) Blood donation
+
+1st     weight,desease and gender
+2nd     weight for male 55 or above
+        weight for female 45 or above
+3rd     if has Sugar then not eligible
+
+
+Q2) Ticket management
+
+1st     what is your preffered class 
+            optins:
+                1st ac
+                2nd sleeper
+                3rd general
+2rd     how many passanger for travel?
+3rd     how many child (age between0-5) age?
+4th     how many female candidates
+        female = 50% discount
+    Total Fare=?
+
+ """
+
+
+
+
+
+print("Price of tickets are : \n1st AC class : Rs. 1500 \n2nd AC class : Rs. 1200 \n3rd AC class : Rs. 1000 \nSleeper class : Rs. 800")
+print("\n[NOTE: \nChildren between 0-5 years old age can travel without ticket. \nFemale pssengers have '50%' discount on tickets.]")
+
+a=str(input("Enter the class (1st AC/ 2nd AC/ 3rd AC/ Sleeper): "))
+b=int(input("How many passengers are travelling ? "))
+c=int(input("How many chiLd between 0-5 age travelling ? "))
+d=int(input("How many female passengers are travelling ? "))
+
+if (a=="1st AC"):
+    e=((b*1500)-(c*1500)-(d*(1500/2)))
+    print("Total fair = Rs.",e)
+elif (a=="2nd AC"):
+    e=((b*1200)-(c*1200)-(d*(1200/2)))
+    print("Total fair = Rs.",e)
+elif (a=="3rd AC"):
+    e=((b*1000)-(c*1000)-(d*(1000/2)))
+    print("Total fair = Rs.",e)
+elif (a=="Sleeper" or a=="sleeper"):
+    e=((b*800)-(c*800)-(d*(800/2)))
+    print("Total fair = Rs.",e)
+
